@@ -4,16 +4,22 @@ import './index.css';
 import App from './App';
 import Nav from './Nav';
 import Home from './head';
-
-
+import Links from './Links';
+import About from './About';
+import Portfolio from './Portfolio';
+import Experience from './Experience';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+   <div className=''> 
     <App />
     <Nav/>
     <Home/>
-    
+    <About/>
+    <Portfolio/>
+    <Experience/>
+    <Links/>
+    </div>
   </React.StrictMode>
 );
 
