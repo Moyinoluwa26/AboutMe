@@ -10,7 +10,7 @@ const Links = () => {
         {id:4,child:(<>Instagram <GrInstagram size={30} /></>),href:"https://www.instagram.com/dlarkoh_jii/"},
         {id:5,child:(<>Resume <IoMdContact size={30}/></>),href:"./Moyin.pdf",download:true}
     ]
-    return (
+    return (<div>
         <div className='hidden lg:flex flex-col top-[35%] left-0 fixed '>
 
     <ul>
@@ -25,6 +25,22 @@ const Links = () => {
             </a>
         </li>)})}
     </ul>
+    </div>
+    <div className='lg:hidden absolute bg-black w-full h-20 flex flex-col'>
+        
+    
+    <ul className='flex flex-row overflow-hidden h-20 justify-between mx-3'>
+      {Link.map(({id,child,href,download})=>{
+        return (
+            <li key={id} className="relative hover: flex h-40 w-20 justify-between py-6 bg-black hover:mt-[-100px] hover:rounded-2xl duration-300 mt-[-11px]">
+                <a href={href} download={download}
+                className="flex flex-col-reverse justify-between items-center text-white mx-auto">{child}</a>
+            </li>
+        )
+      })}
+        
+    </ul>
+    </div>
     </div> );
 }
  

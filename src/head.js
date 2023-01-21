@@ -14,11 +14,11 @@ export default  function Home  ()  {
                 <p className='text-gray-300'> I have 2 years experience in building user frenndly web applictaions . Currently, I love to work Fine Tech using technologies like React, Tailwind and SQL </p>
              
                <div>
-         <button className='group text-white hover:scale-75 duration-200 w-fit px-4 py-3 my-3  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
+         <button className='mx-auto group text-white hover:scale-75 duration-200 w-fit sm:ml-0 px-4 py-3 my-5  flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500
          cursor-pointer'>
             Portfolio
-            <span className=' mx-2 group-hover:scale-150 group-hover:mx-4 group-hover:rotate-90 duration-200'> 
-            <SlArrowRightCircle/>
+            <span className='mx-2 group-hover:scale-150 group-hover:mx-4 group-hover:rotate-90 duration-200'> 
+            <SlArrowRightCircle className=''/>
             </span>
          </button >
                  </div>
