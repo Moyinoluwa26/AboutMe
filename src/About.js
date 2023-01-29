@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = () => {
-    return ( <div name ="about" className='pt-48 md:pt-0 w-full h-full bg-gradient-to-b from-gray-500 to-black'>
+    return ( <div name ="about" className='pt-48 md:pt-0 w-screen h-full bg-gradient-to-b from-gray-500 to-black'>
         <div className='text-white max-w-screen-lg flex flex-col justify-center p-4 mx-auto w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500 hover:scale-150 duration-200'>About</p>

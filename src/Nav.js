@@ -13,7 +13,7 @@ const ChNav = () => {
     ]
 
     return (
-    <div className="flex  justify-between items-center w-full h-20 text-white fixed bg-gray-800 px-4">
+    <div className="flex  justify-between items-center w-screen h-20 text-white fixed bg-gray-800 px-4">
         <div className="flex ">
             <h1 className="text-5xl px-4 font-coli"> Moyin </h1> </div>
             <ul className=" hidden md:flex md:mr-4 ">
