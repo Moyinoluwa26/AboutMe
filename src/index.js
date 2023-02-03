@@ -1,26 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Nav from './Nav';
-
-import Links from './Links';
-import About from './About';
-import Portfolio from './Portfolio';
-import Experience from './Experience';
-import Contact from './Contact';
+import MyApp from './myApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode >
    <div className='bg-pink'>
     
-    <Nav/>
-  
-    <About/>
-    <Portfolio/>
-    <Experience/>
-    <Contact/>
-    <Links/>
+    <MyApp/>
   </div>
   </React.StrictMode>
 );
