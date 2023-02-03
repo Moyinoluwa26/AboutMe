@@ -26,7 +26,7 @@ const Links = () => {
         </li>)})}
     </ul>
     </div>
-    <div className='lg:hidden absolute bg-black w-screen overscroll-none h-20 flex flex-col'>
+    <div className='lg:hidden mx-0 absolute bg-black w-screen overscroll-none h-20 flex flex-col'>
         
     
     <ul className='flex flex-row overflow-hidden h-20 justify-between mx-3'>
