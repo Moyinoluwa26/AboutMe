@@ -7,7 +7,7 @@ export default  function Home  ()  {
     
     return ( <div 
         name="home"
-    className='text-lg text-white flex flex-row  overscroll-none w-screen h-screen bg-gradient-to-b from-black to-gray-500 '>
+    className='text-lg text-white flex flex-row  overscroll-none w-screen h-full bg-gradient-to-b from-black to-gray-500 '>
         <div className='max-w-screen-lg  mx-auto h-full w-full   flex flex-col-reverse  items-center justify-center  px-4 md:flex-row'>
             <div className=' md:w-2/3 mt-24 mx-auto justify-center '>
                 <h2 className="text-2xl md:text-4xl text-white font-bold  ">I'm a Front-End Developer </h2>
