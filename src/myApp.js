@@ -8,7 +8,7 @@ import Experience from './Experience';
 import Contact from './Contact';
 import Home from './head';
 import About from './About';
-
+//import Idea from './Idea';
 
 function MyApp() {
     return ( <div className='overflow-hidden'>

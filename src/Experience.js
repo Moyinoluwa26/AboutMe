@@ -20,7 +20,7 @@ const Experience = () => {
         {id:7,src:ReduxIm, style:"shadow-purple-800",title:"Redux"},
         {id:8,src:GithubIm, style:"shadow-gray-500",title:"Github"} 
     ]
-    return (<div name="experience"  className='overscroll-none mx-0 bg-gradient-to-b from-gray-500 to-black w-screen h-full'>
+    return (<div id='Experience' name="experience"  className='overscroll-none mx-0 bg-gradient-to-b from-gray-500 to-black w-screen h-full'>
 <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full'>
     <div>
         <p className='p-2 inline text-4xl font-bold border-b-4 border-gray-500'>Experience</p>
