@@ -35,7 +35,7 @@ const ChNav = () => {
              {btns.map(({id,link,where}) => {
                 return (
                     <li key={id} className="mt-4 cursor-pointer text-gray-700 hover:scale-150 duration-150">
-                        <a href={link} >{where}</a>
+                        <a href={link} onClick={ChNav} >{where}</a>
                     </li>
                 )
              })}
